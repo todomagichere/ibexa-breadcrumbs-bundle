@@ -1,10 +1,10 @@
 
 ## ibexa-breadcrumbs-bundle
-----
+
 This is the first version of ibexa-breadcrumbs-bundle. The intention of this bundle is to make easy the breadcrumb system implementation for the ibexa platform, previously known as ezplatform.
 
 ## Installation instructions
-----
+
 From composer, run the following command:
 
     composer require lzr/ibexa-breadcrumbs-bundle
