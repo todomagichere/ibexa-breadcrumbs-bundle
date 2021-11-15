@@ -18,6 +18,8 @@ To get the breadcrumb system up and running, it must be invoked from a twig temp
 
 It should be noted that the location parameter is mandatory, since the way in which the breadcrumbs are generated is through their pathString
 
+
+## Configuration file
 Nowadays there is a "rejected locations and rejected content types" configuration file, but the bundle IS NOT ready for it. This is the configuration file:
 
 ```yaml
