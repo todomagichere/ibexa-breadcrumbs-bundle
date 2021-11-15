@@ -36,5 +36,3 @@ ibexa_breadcrumbs:
     locations_rejected: [2,3,140]
     contenttypes_rejected: ['folder', 'distributor', 'article']
 ```
-
-Any suggestions please contact to rperez@infinitumdigital.net
