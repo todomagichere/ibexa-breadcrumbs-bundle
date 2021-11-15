@@ -1,0 +1,12 @@
+services:
+
+    ibexa_breadcrumbs:
+        class: Lzr\IbexaBreadcrumbsBundle\IbexaBreadcrumbs
+        arguments: ['@ezpublish.api.repository', '@twig', null, null]
+        public: true
+
+    ibexa_breadcrumbs_twig_extension:
+        class: Lzr\IbexaBreadcrumbsBundle\Twig\TwigExtension
+        arguments: ['@ibexa_breadcrumbs']
+        tags:
+            - { name: twig.extension }

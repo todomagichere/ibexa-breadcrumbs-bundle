@@ -1,0 +1,11 @@
+<nav id="ibexa-breadcrumbs" class="ibexa-breadcrumbs" aria-label="breadcrumbs">
+    {% for breadcrumb in breadcrumbs %}
+        {% if not loop.last %}
+           <span>
+               <a href="{{ path('ez_urlalias', {'contentId': breadcrumb.id}) }}" role="menuitem">{{ ez_content_name(breadcrumb) }}</a>
+           </span> /
+        {% else %}
+            <span>{{ ez_content_name(breadcrumb) }}</span>
+        {% endif %}
+    {% endfor %}
+</nav>
