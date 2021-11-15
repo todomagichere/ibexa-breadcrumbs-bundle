@@ -1,0 +1,1 @@
+# ibexa-breadcrumbs-bundle
