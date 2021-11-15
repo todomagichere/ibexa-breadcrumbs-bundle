@@ -1,7 +1,7 @@
 {
   "name": "lzr/ibexa-breadcrumbs-bundle",
   "type": "symfony-bundle",
-  "version": "v1.0.1",  
+  "version": "v1.0.2",  
   "description": "This bundle provides a basic breadcrumbs system for ibexa cms",
   "keywords": [ "ibexa", "breadcrumbs", "manipulation"],
   "homepage": "https://infinitumdigital.net/",
