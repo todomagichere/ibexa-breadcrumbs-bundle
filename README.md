@@ -3,6 +3,8 @@
 
 This is the first version of ibexa-breadcrumbs-bundle. The intention of this bundle is to make easy the breadcrumb system implementation for the ibexa platform, previously known as ezplatform.
 
+
+
 ## Installation instructions
 
 From composer, run the following command:
@@ -19,6 +21,7 @@ To get the breadcrumb system up and running, it must be invoked from a twig temp
 It should be noted that the location parameter is mandatory, since the way in which the breadcrumbs are generated is through their pathString
 
 
+
 ## Configuration file
 Nowadays there is a "rejected locations and rejected content types" configuration file, but the bundle IS NOT ready for it. The point of this is to avoid a certain number of locations, passing the location id, or in the other hand manage the content types rejected, for example:
 ```yaml
@@ -27,6 +30,8 @@ ibexa_breadcrumbs:
     locations_rejected: [2,3,140]
     contenttypes_rejected: ['folder', 'distributor', 'article']
 ```
+
+
 
 ## Twig template
 Suppose we have the following content tree:
