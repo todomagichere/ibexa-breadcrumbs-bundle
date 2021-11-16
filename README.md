@@ -27,3 +27,14 @@ ibexa_breadcrumbs:
     locations_rejected: [2,3,140]
     contenttypes_rejected: ['folder', 'distributor', 'article']
 ```
+
+## Twig template
+Suppose we have the following content tree:
+![imagen](https://user-images.githubusercontent.com/23119890/142036588-3b976f86-361a-4292-9f1f-17075ba0790e.png)
+We can see that it is rendered as follows:
+![imagen](https://user-images.githubusercontent.com/23119890/142036902-9b3434c5-ebd1-4cc3-a289-e8fdfa57994a.png)
+
+It's not very pretty, but whoever cares can overwrite the template :D
+
+
+
