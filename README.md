@@ -36,7 +36,8 @@ ibexa_breadcrumbs:
 ## Twig template
 Suppose we have the following content tree:
 
-![imagen](https://user-images.githubusercontent.com/23119890/142036588-3b976f86-361a-4292-9f1f-17075ba0790e.png)
+![imagen](https://user-images.githubusercontent.com/23119890/142244237-508fed27-f970-4a9d-99e6-5d5c7561b29c.png)
+
 
 We can see that it is rendered as follows:
 
