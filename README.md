@@ -16,6 +16,7 @@ To get the breadcrumb system up and running, it must be invoked from a twig temp
 ```twig
 {{ get_breadcrumbs(location)|raw }}
 ```
+
     
 
 It should be noted that the location parameter is mandatory, since the way in which the breadcrumbs are generated is through their pathString
