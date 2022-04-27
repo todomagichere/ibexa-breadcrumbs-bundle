@@ -19,16 +19,16 @@ To get the breadcrumb system up and running, it must be invoked from a twig temp
 
     
 
-It should be noted that the location parameter is mandatory, since the way in which the breadcrumbs are generated is through their pathString
+It should be noted that the location parameter is mandatory, since the way the breadcrumbs are generated is through their pathString
 
 
 
 ## Configuration file
-Nowadays there is a "rejected locations and rejected content types" configuration file, but the bundle IS NOT ready for it. The point of this is to avoid a certain number of locations, passing the location id, or in the other hand manage the content types rejected, for example:
+The point of this configuration file is to avoid a certain number of locations, passing the location id, or in the other hand manage the content types rejected, for example:
 ```yaml
 #config/packages/ibexa_breadcrumbs.yaml
 ibexa_breadcrumbs:
-    locations_rejected: [2,3,140]
+    locations_rejected: [2, 3, 140]
     contenttypes_rejected: ['folder', 'distributor', 'article']
 ```
 
