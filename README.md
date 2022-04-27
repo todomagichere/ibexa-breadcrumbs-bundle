@@ -14,7 +14,7 @@ From composer, run the following command:
 To get the breadcrumb system up and running, it must be invoked from a twig template (usually a full view) with this function:
 
 ```twig
-{{ get_breadcrumbs(location)|raw }}
+{{ get_breadcrumbs(location) }}
 ```
 
     
