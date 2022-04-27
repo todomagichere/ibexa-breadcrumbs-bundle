@@ -46,4 +46,6 @@ We can see that it is rendered as follows:
 
 
 ## Overriding Twig template
-To override the default template breadcrumbs.html.twig just create a new template named ezplatform/templates/bundles/IbexaBreadcrumbsBundle/breadcrumbs.html.twig (See default template behaviour)
+To override the default template breadcrumbs.html.twig just create a new template (See default template behaviour for new implementation):
+
+    ezplatform/templates/bundles/IbexaBreadcrumbsBundle/breadcrumbs.html.twig
