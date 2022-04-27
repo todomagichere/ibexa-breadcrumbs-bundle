@@ -38,10 +38,16 @@ class IbexaBreadcrumbs
         foreach ($locationIds as $locationId) {
             if ($locationId > 2) {
                 $location = $locationService->loadLocation($locationId);
-                $breadcrumbs[] = $contentService->loadContentByContentInfo($location->contentInfo);
+                $content = $contentService->loadContentByContentInfo($location->contentInfo);
+                $contentTypeIdentifier = $content->getContentType()->identifier;
+
+                if (in_array($locationId, $this->locationsRejected) || in_array($contentTypeIdentifier, $this->contenttypesRejected)) {
+                    continue;
+                }
+
+                $breadcrumbs[] = $content;
             }
         }
-
 
         return $this->twig->render('@IbexaBreadcrumbs/breadcrumbs.html.twig', [
             'breadcrumbs' => $breadcrumbs,
