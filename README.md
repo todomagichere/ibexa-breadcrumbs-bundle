@@ -45,3 +45,5 @@ We can see that it is rendered as follows:
 ![imagen](https://user-images.githubusercontent.com/23119890/142036902-9b3434c5-ebd1-4cc3-a289-e8fdfa57994a.png)
 
 
+## Overriding Twig template
+To override the default template breadcrumbs.html.twig just create a new template named ezplatform/templates/bundles/IbexaBreadcrumbsBundle/breadcrumbs.html.twig (See default template behaviour)
