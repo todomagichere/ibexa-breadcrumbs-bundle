@@ -1,7 +1,7 @@
 
-## ibexa-breadcrumbs-bundle
+# Ibexa breadcrumbs bundle
 
-This is the first version of ibexa-breadcrumbs-bundle. The intention of this bundle is to make easy the breadcrumb system implementation for the ibexa platform, previously known as ezplatform.
+This is the first version of ibexa breadcrumbs bundle. The intention of this bundle is to make easy the breadcrumb system implementation for the ibexa platform, previously known as ezplatform.
 
 
 
@@ -43,8 +43,5 @@ Suppose we have the following content tree:
 We can see that it is rendered as follows:
 
 ![imagen](https://user-images.githubusercontent.com/23119890/142036902-9b3434c5-ebd1-4cc3-a289-e8fdfa57994a.png)
-
-It's not very pretty, but whoever cares can overwrite the template :D
-
 
 
