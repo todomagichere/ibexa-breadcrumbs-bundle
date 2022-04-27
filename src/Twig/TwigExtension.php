@@ -22,7 +22,7 @@ class TwigExtension extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction('get_breadcrumbs', [$this, 'getBreadcrumbs']),
+            new TwigFunction('get_breadcrumbs', [$this, 'getBreadcrumbs'], ['is_safe' => ['html']])
         ];
     }
 
