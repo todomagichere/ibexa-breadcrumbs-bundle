@@ -1,9 +1,9 @@
 {
-  "name": "lzr/ibexa-breadcrumbs-bundle",
+  "name": "todomagichere/ibexa-breadcrumbs-bundle",
   "type": "symfony-bundle",
   "version": "v1.1.0",  
   "description": "This bundle provides a basic breadcrumbs system for ibexa cms",
-  "keywords": [ "ibexa", "breadcrumbs", "manipulation"],
+  "keywords": [ "ibexa", "breadcrumbs", "manipulation", "todomagichere"],
   "homepage": "https://infinitumdigital.net/",
   "license": "MIT",
   "authors": [
@@ -15,7 +15,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Lzr\\IbexaBreadcrumbsBundle\\": "src/"
+      "TodoMagicHere\\IbexaBreadcrumbsBundle\\": "src/"
     }
   },
   "require": {
