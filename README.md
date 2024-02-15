@@ -9,7 +9,7 @@ This is the first version of ibexa breadcrumbs bundle. The intention of this bun
 
 From composer, run the following command:
 
-    composer require lzr/ibexa-breadcrumbs-bundle
+    composer require todomagichere/ibexa-breadcrumbs-bundle
 
 To get the breadcrumb system up and running, it must be invoked from a twig template (usually a full view) with this function:
 
