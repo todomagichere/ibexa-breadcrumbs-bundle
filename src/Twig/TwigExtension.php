@@ -1,10 +1,10 @@
 <?php
 
-namespace Lzr\IbexaBreadcrumbsBundle\Twig;
+namespace TodoMagicHere\IbexaBreadcrumbsBundle\Twig;
 
 
 use eZ\Publish\API\Repository\Values\Content\Location;
-use Lzr\IbexaBreadcrumbsBundle\IbexaBreadcrumbs;
+use TodoMagicHere\IbexaBreadcrumbsBundle\IbexaBreadcrumbs;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 

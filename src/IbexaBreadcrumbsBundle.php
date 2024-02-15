@@ -1,6 +1,6 @@
 <?php
 
-namespace Lzr\IbexaBreadcrumbsBundle;
+namespace TodoMagicHere\IbexaBreadcrumbsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

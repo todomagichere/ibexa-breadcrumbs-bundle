@@ -1,6 +1,6 @@
 <?php
 
-namespace Lzr\IbexaBreadcrumbsBundle;
+namespace TodoMagicHere\IbexaBreadcrumbsBundle;
 
 use eZ\Publish\API\Repository\Repository;
 use eZ\Publish\API\Repository\Values\Content\Location;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lzr\IbexaBreadcrumbsBundle\DependencyInjection;
+namespace TodoMagicHere\IbexaBreadcrumbsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
